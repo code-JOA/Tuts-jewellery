@@ -17,6 +17,10 @@ const config: Config = {
           "sans-serif",
         ],
       },
+      boxShadow: {
+        border: "inset 0 0 0 1px #fff",
+        "link-underline": "",
+      },
     },
   },
 
