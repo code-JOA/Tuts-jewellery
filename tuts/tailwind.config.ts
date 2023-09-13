@@ -8,13 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      body: [
-        "Louis Vuitton Web",
-        "Helvetico Neue",
-        "Helvetico",
-        "Arial",
-        "sans-serif",
-      ],
+      fontFamily: {
+        body: [
+          "Louis Vuitton Web",
+          "Helvetica Neue",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+      },
     },
   },
   plugins: [],
