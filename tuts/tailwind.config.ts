@@ -7,7 +7,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      body: [
+        "Louis Vuitton Web",
+        "Helvetico Neue",
+        "Helvetico",
+        "Arial",
+        "sans-serif",
+      ],
+    },
   },
   plugins: [],
 };
