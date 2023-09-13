@@ -19,7 +19,7 @@ const config: Config = {
       },
       boxShadow: {
         border: "inset 0 0 0 1px #fff",
-        "link"
+        "link-underline": "inset 0 2px 0 0 #fff",
       },
     },
   },
