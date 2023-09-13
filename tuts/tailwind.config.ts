@@ -22,9 +22,7 @@ const config: Config = {
         "link-underline": "0 1px 0 rgba(0,0,0,.6)",
       },
       backgroundImage: {
-        "video-gradient":
-          "linear-gradient(0deg, rgba(0,0,0,0)0%, #000000 100%)",
-      },
+      
     },
   },
   plugins: [],
