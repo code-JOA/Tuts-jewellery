@@ -17,6 +17,9 @@ const config: Config = {
           "sans-serif",
         ],
       },
+      boxShadow(utils) {
+        
+      },}
     },
   },
   plugins: [],
