@@ -17,7 +17,10 @@ const config: Config = {
           "sans-serif",
         ],
       },
-      boxShadow: {},
+      boxShadow: {
+        border: "inset 0 0 0 1px #fff",
+        "link"
+      },
     },
   },
   plugins: [],
