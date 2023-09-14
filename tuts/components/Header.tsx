@@ -1,5 +1,6 @@
 import { Bars3Icon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import classNames from "classnames";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -21,7 +22,12 @@ const Header = () => {
         </div>
 
         {/* Center Header */}
-        <div>
+        <div
+          className={classNames(
+            "absolute max-w-[154px] w-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ",
+            "md:max-w-[227px]"
+          )}
+        >
           <Link href="/">
             <svg
               width="151"
