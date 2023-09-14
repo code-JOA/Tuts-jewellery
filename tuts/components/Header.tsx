@@ -1,4 +1,8 @@
-import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  MagnifyingGlassIcon,
+  ShoppingBagIcon,
+} from "@heroicons/react/24/outline";
 import classNames from "classnames";
 import Link from "next/link";
 
@@ -51,8 +55,8 @@ const Header = () => {
 
         {/* cart */}
         <button>
-            <ShoppingBagIcon className
-            <span>Cart</span>
+          <ShoppingBagIcon className="h-6 w-6" />
+          <span>Cart</span>
         </button>
       </div>
     </header>
