@@ -28,7 +28,7 @@ const Header = () => {
           {/* Menu */}
           <button type="button" className="flex items-center gap-4">
             <Bars3Icon className="h-6 w-6" />
-            <span className="">Menu</span>
+            <span className={classNames("hidden md:inline-block")}>Menu</span>
           </button>
 
           {/* Search */}
