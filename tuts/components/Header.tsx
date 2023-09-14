@@ -1,4 +1,4 @@
-import { Bars3Icon } from "@heroicons/react/24/outline";
+import { Bars3Icon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 const Header = () => {
   return (
