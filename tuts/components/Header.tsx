@@ -67,10 +67,7 @@ const Header = () => {
         {/* Right Header */}
         <div className="flex items-center gap-[30px]">
           <div
-            className={classNames(
-              "hidden flex items-center gap-[30px]",
-              "md:Inline-black"
-            )}
+            className={classNames("hidden items-center gap-[30px]", "md:flex")}
           >
             <button>WishList</button>
             <button>MyTurt</button>
