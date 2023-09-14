@@ -19,5 +19,5 @@ body {
 }
 
 main {
-  @apply;
+  @apply flex-1;
 }
