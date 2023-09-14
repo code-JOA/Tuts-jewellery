@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header
       className={classNames(
-        "fixed top-0 left-0 w-full h-[88px] flex items-center z-10 hover:bg-white transition-all duration-[3s] ease-in-out group",
+        "fixed top-0 left-0 w-full h-[56px] flex items-center z-10 hover:bg-white transition-all duration-[3s] ease-in-out group",
         "md:h-[88px]"
       )}
     >
