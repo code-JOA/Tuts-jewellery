@@ -17,7 +17,8 @@ const Header = () => {
       {/* Inner Header */}
       <div
         className={classNames(
-          "flex flex-1 items-center justify-between px-[36px] group-hover:text-black"
+          "flex flex-1 items-center justify-between px-[36px] group-hover:text-black",
+          "md:px-[36px]"
         )}
       >
         {/* Left Header */}
