@@ -2,5 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@font-face {
+  font-family: "Louis Vuitton Web";
+  src: url("/fonts/LouisVuitton-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Louis Vuitton Web";
+  src: url("/fonts/LouisVuitton-Regular.woff2") format("woff2");
+  font-weight: 400;
 }
