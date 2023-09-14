@@ -57,7 +57,10 @@ const Header = () => {
           {/* cart */}
           <button className="flex items-sort">
             <ShoppingBagIcon className="h-5 w-5" />
-            <span className="h-3 w-3 border bg-transparent flex items-center justify-center text-[0px]">
+            <span
+              className="h-3 w-3 border bg-transparent flex items-center justify-center text-[0px] relativ top-[-2px]
+            group"
+            >
               0
             </span>
           </button>
