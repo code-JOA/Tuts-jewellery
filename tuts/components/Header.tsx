@@ -1,3 +1,5 @@
+import { Bars3Icon } from "@heroicons/react/outline";
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full h-[88px] flex items-center z-10 hover:bg-white transition-all duration-[3s] ease-in-out group">
