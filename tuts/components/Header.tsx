@@ -15,7 +15,11 @@ const Header = () => {
       )}
     >
       {/* Inner Header */}
-      <div className="flex flex-1 items-center justify-between px-[36px] group-hover:text-black">
+      <div
+        className={classNames(
+          "flex flex-1 items-center justify-between px-[36px] group-hover:text-black"
+        )}
+      >
         {/* Left Header */}
         <div className="flex items-center gap-[30px]">
           {/* Menu */}
