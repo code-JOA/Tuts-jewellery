@@ -14,8 +14,6 @@ const Header = () => {
 
           {/* Search */}
           <button type="button" className="flex items-center gap-4">
-            {/* <Bars3Icon className="h-6 w-6" /> */}
-            <MagnifyingGlassIcon className="h-5 w-5" />
             <span>Search</span>
           </button>
         </div>
