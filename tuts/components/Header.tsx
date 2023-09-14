@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full h-[88px] flex items-center z-10 hover:bg-white transition-all duration-[3s] ease-in-out group">
+    <header className="fixed top-0 left-0 w-full h-[88px] flex items-center z-10 hover:bg-brown transition-all duration-[3s] ease-in-out group">
       <div className="flex flex-1 items-center justify-between px-[36px] group-hover:text-black">
         {/* Left Header */}
         <div className="flex items-center gap-[30px]">
