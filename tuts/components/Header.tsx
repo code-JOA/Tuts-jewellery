@@ -48,14 +48,14 @@ const Header = () => {
         </div>
 
         {/* Right Header */}
-        <div cassName="flex items-center gap-[30px]">
+        <div className="flex items-center gap-[30px]">
           <button></button>
           <button></button>
         </div>
 
         {/* cart */}
         <button>
-          <ShoppingBagIcon className="h-6 w-6" />
+          <ShoppingBagIcon className="h-5 w-5" />
           <span>Cart</span>
         </button>
       </div>
