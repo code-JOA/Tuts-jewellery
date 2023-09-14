@@ -1,4 +1,4 @@
-import { Bars3Icon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon } from "@heroicons/react/24/outline";
 import classNames from "classnames";
 import Link from "next/link";
 
@@ -44,10 +44,16 @@ const Header = () => {
         </div>
 
         {/* Right Header */}
-        <div cassName="flex items-center gap-[30px">
+        <div cassName="flex items-center gap-[30px]">
           <button></button>
           <button></button>
         </div>
+
+        {/* cart */}
+        <button>
+            <ShoppingBagIcon className
+            <span>Cart</span>
+        </button>
       </div>
     </header>
   );
