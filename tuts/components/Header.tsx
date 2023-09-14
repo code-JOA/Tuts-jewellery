@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex flex-1 items-center justify-between px-[36px] group-hover:text-black">
         {/* Left Header */}
         <div>
-          <button>
+          <button type="">
             <Bars3Icon className="h-6 w-6" />
             <span>Menu</span>
           </button>
