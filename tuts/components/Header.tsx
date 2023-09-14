@@ -22,7 +22,7 @@ const Header = () => {
         </div>
 
         {/* Center Header */}
-        <div className="absolute max-w-[227px] w-full left-1/2 right-1/2 -translate-x-1/2 -translate-y-1">
+        <div className="absolute max-w-[227px] w-full left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2">
           <h1>TURTS</h1>
           {/* <Link href="/">
             <svg
