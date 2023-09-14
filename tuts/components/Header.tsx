@@ -23,19 +23,7 @@ const Header = () => {
 
         {/* Center Header */}
         <div>
-          <h1
-            width="151"
-            height="16"
-            viewBox="0 0 151 16"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            className={classNames(
-              "h-[23px] w-full group-hover:fill-black transition-all duration-[.3s] ease-in-out"
-            )}
-          >
-            {" "}
-            TURTS
-          </h1>
+          <h1>TURTS</h1>
           {/* <Link href="/">
             <svg
               width="151"
