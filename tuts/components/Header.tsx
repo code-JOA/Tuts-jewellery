@@ -1,4 +1,4 @@
-import { Bars3Icon } from "@heroicons/react/outline";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
         {/* Left Header */}
         <div>
           <button>
-            <Bars3Icon className="w-[24px] h-[24px] text-white" />
+            <Bars3Icon className="h-6 w-6" />
             <span>Menu</span>
           </button>
         </div>
