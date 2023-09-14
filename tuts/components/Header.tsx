@@ -5,6 +5,7 @@ const Header = () => {
         {/* Left Header */}
         <div>
           <button>
+            <Bars3Icon className="w-[24px] h-[24px] text-white" />
             <span>Menu</span>
           </button>
         </div>
