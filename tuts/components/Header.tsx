@@ -4,7 +4,9 @@ const Header = () => {
       <div className="flex flex-1 items-center justify-between px-[36px] group-hover:text-black">
         {/* Left Header */}
         <div>
-          <button></button>
+          <button>
+            <span>Menu</span>
+          </button>
         </div>
 
         {/* Center Header */}
