@@ -6,9 +6,16 @@ const Header = () => {
       <div className="flex flex-1 items-center justify-between px-[36px] group-hover:text-black">
         {/* Left Header */}
         <div className="flex items-center gap-[30px]">
+          {/* Menu */}
           <button type="button" className="flex items-center gap-4">
             <Bars3Icon className="h-6 w-6" />
             <span>Menu</span>
+          </button>
+
+          {/* Search */}
+          <button type="button" className="flex items-center gap-4">
+            <Bars3Icon className="h-6 w-6" />
+            <span>Search</span>
           </button>
         </div>
 
