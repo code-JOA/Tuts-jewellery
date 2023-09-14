@@ -15,7 +15,7 @@
 }
 
 body {
-  @apply bg-black text-white h-screen flex flex-col font-body text-[16px] leading-[20px];
+  @apply bg-amber-700 text-white h-screen flex flex-col font-body text-[16px] leading-[20px];
 }
 
 main {
