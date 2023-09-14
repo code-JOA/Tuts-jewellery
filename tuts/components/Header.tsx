@@ -22,7 +22,7 @@ const Header = () => {
         </div>
 
         {/* Center Header */}
-        <div>
+        <div className="absolute max-w-[]">
           <h1>TURTS</h1>
           {/* <Link href="/">
             <svg
