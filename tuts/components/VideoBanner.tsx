@@ -1,9 +1,9 @@
 import React from "react";
 
-type Props = {};
+type VideoBannerProps = {};
 
-function VideoBanner({}: Props) {
-  return <div>VideoBanner</div>;
+const VideoBanner({}: VideoBannerProps) {
+  return <section>VideoBanner</section>;
 }
 
 export default VideoBanner;
