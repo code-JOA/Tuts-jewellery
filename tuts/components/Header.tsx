@@ -59,7 +59,7 @@ const Header = () => {
             <ShoppingBagIcon className="h-5 w-5" />
             <span
               className="h-3 w-3 border bg-transparent flex items-center justify-center text-[0px] relativ top-[-2px]
-            group"
+            group-hover:text-black group-hover:border-black"
             >
               0
             </span>
