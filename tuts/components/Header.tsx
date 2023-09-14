@@ -21,7 +21,7 @@ const Header = () => {
 
         {/* Center Header */}
         <div>
-          <Link></Link>
+          <Link href=""></Link>
         </div>
 
         {/* Right Header */}
