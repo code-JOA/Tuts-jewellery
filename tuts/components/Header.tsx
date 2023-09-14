@@ -44,10 +44,9 @@ const Header = () => {
         </div>
 
         {/* Right Header */}
-        <div>
-          <button>
-            <button></button>
-          </button>
+        <div cassName="flex items-center gap-[30px">
+          <button></button>
+          <button></button>
         </div>
       </div>
     </header>
