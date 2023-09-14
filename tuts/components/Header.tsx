@@ -44,7 +44,11 @@ const Header = () => {
         </div>
 
         {/* Right Header */}
-        <div>Menu Right</div>
+        <div>
+          <button>
+            <button></button>
+          </button>
+        </div>
       </div>
     </header>
   );
