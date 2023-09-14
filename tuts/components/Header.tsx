@@ -44,7 +44,7 @@ const Header = () => {
 
         {/* Center Header */}
         <div className="absolute max-w-[154px] w-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1>TURTS JEWELRY</h1>
+          <h1>TURT JEWELRY</h1>
           {/* <Link href="/">
             <svg
               width="151"
