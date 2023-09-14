@@ -54,7 +54,7 @@ const Header = () => {
         </div>
 
         {/* cart */}
-        <button>
+        <button className=>
           <ShoppingBagIcon className="h-5 w-5" />
           <span>Cart</span>
         </button>
