@@ -22,7 +22,9 @@ const Header = () => {
         )}
       >
         {/* Left Header */}
-        <div className={classNames("flex items-center gap-[30px]", "md:")}>
+        <div
+          className={classNames("flex items-center gap-[16px]", "gap-[30px]")}
+        >
           {/* Menu */}
           <button type="button" className="flex items-center gap-4">
             <Bars3Icon className="h-6 w-6" />
