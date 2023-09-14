@@ -20,7 +20,9 @@ const Header = () => {
         </div>
 
         {/* Center Header */}
-        <div>Menu Center</div>
+        <div>
+          <Link></Link>
+        </div>
 
         {/* Right Header */}
         <div>Menu Right</div>
