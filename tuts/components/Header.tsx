@@ -30,8 +30,7 @@ const Header = () => {
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               className={classNames(
-                "h-[23px] w-full group-hover:fill-black transition-all duration-[.3s] ease-in-out",
-                !show ? "fill-white" : "fill-black"
+                "h-[23px] w-full group-hover:fill-black transition-all duration-[.3s] ease-in-out"
               )}
             >
               <path
